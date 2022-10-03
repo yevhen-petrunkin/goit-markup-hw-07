@@ -64,215 +64,239 @@
     </header>
 
     <main>
-      <section class="section projects">
+      <section class="projects section">
         <div class="container">
-          <h1 class="visually-hidden">Портфоліо</h1>
+          <h1 class="projects__heading second-heading visually-hidden">Портфоліо</h1>
 
           <!-- Кнопки фільтра -->
-          <ul class="list filter-list flex-center">
-            <li><button class="bg-grey main-btn active" type="button">Усі</button></li>
-            <li><button class="bg-grey" type="button">Веб-сайти</button></li>
-            <li><button class="bg-grey" type="button">Додатки</button></li>
-            <li><button class="bg-grey" type="button">Дизайн</button></li>
-            <li><button class="bg-grey" type="button">Маркетинг</button></li>
+          <ul class="filter list flex-center">
+            <li class="filter__item">
+              <button
+                class="filter__btn filter__btn--main filter__btn--active bg-grey"
+                type="button"
+              >
+                Усі
+              </button>
+            </li>
+            <li class="filter__item">
+              <button class="filter__btn bg-grey" type="button">Веб-сайти</button>
+            </li>
+            <li class="filter__item">
+              <button class="filter__btn bg-grey" type="button">Додатки</button>
+            </li>
+            <li class="filter__item">
+              <button class="filter__btn bg-grey" type="button">Дизайн</button>
+            </li>
+            <li class="filter__item">
+              <button class="filter__btn bg-grey" type="button">Маркетинг</button>
+            </li>
           </ul>
 
           <!-- Проєкти -->
-          <ul class="list project-list">
-            <li>
-              <a class="project-link link" href="">
-                <div class="project-overlay">
+          <ul class="projects__list list">
+            <li class="projects__card">
+              <a class="projects__link link" href="">
+                <div class="projects__overlay">
                   <img
+                    class="projects__img"
                     src="./images/portfolio-images/port-1.jpg"
                     alt="Екран ноутбука"
                     width="370"
                     height="294"
                   />
-                  <p class="project-descript">
+                  <p class="projects__description">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                     приватну особу.
                   </p>
                 </div>
-                <div class="project">
-                  <h2>Технокряк</h2>
-                  <p>Веб-сайт</p>
+                <div class="projects__caption">
+                  <h2 class="projects__title">Технокряк</h2>
+                  <p class="projects__info">Веб-сайт</p>
                 </div>
               </a>
             </li>
 
-            <li>
-              <a class="project-link link" href="">
-                <div class="project-overlay">
+            <li class="projects__card">
+              <a class="projects__link link" href="">
+                <div class="projects__overlay">
                   <img
+                    class="projects__img"
                     src="./images/portfolio-images/port-2.jpg"
                     alt="Екран ноутбука"
                     width="370"
                     height="294"
                   />
-                  <p class="project-descript">
+                  <p class="projects__description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi voluptates
                     odio dolorum ex sapiente provident cupiditate incidunt quibusdam praesentium
                     nesciunt?
                   </p>
                 </div>
-                <div class="project">
-                  <h2>Постер New Orlean vs Golden Star</h2>
-                  <p>Дизайн</p>
+                <div class="projects__caption">
+                  <h2 class="projects__title">Постер New Orlean vs Golden Star</h2>
+                  <p class="projects__info">Дизайн</p>
                 </div>
               </a>
             </li>
 
-            <li>
-              <a class="project-link link" href="">
-                <div class="project-overlay">
+            <li class="projects__card">
+              <a class="projects__link link" href="">
+                <div class="projects__overlay">
                   <img
+                    class="projects__img"
                     src="./images/portfolio-images/port-3.jpg"
                     alt="Екран ноутбука"
                     width="370"
                     height="294"
                   />
-                  <p class="project-descript">
+                  <p class="projects__description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi voluptates
                     odio dolorum ex sapiente provident cupiditate incidunt quibusdam praesentium
                     nesciunt?
                   </p>
                 </div>
-                <div class="project">
-                  <h2>Ресторан Seafood</h2>
-                  <p>Додаток</p>
+                <div class="projects__caption">
+                  <h2 class="projects__title">Ресторан Seafood</h2>
+                  <p class="projects__info">Додаток</p>
                 </div>
               </a>
             </li>
 
-            <li>
-              <a class="project-link link" href="">
-                <div class="project-overlay">
+            <li class="projects__card">
+              <a class="projects__link link" href="">
+                <div class="projects__overlay">
                   <img
+                    class="projects__img"
                     src="./images/portfolio-images/port-4.jpg"
                     alt="Екран ноутбука"
                     width="370"
                     height="294"
                   />
-                  <p class="project-descript">
+                  <p class="projects__description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi voluptates
                     odio dolorum ex sapiente provident cupiditate incidunt quibusdam praesentium
                     nesciunt?
                   </p>
                 </div>
-                <div class="project">
-                  <h2>Проєкт Prime</h2>
-                  <p>Маркетинг</p>
+                <div class="projects__caption">
+                  <h2 class="projects__title">Проєкт Prime</h2>
+                  <p class="projects__info">Маркетинг</p>
                 </div>
               </a>
             </li>
 
-            <li>
-              <a class="project-link link" href="">
-                <div class="project-overlay">
+            <li class="projects__card">
+              <a class="projects__link link" href="">
+                <div class="projects__overlay">
                   <img
+                    class="projects__img"
                     src="./images/portfolio-images/port-5.jpg"
                     alt="Екран ноутбука"
                     width="370"
                     height="294"
                   />
-                  <p class="project-descript">
+                  <p class="projects__description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi voluptates
                     odio dolorum ex sapiente provident cupiditate incidunt quibusdam praesentium
                     nesciunt?
                   </p>
                 </div>
-                <div class="project">
-                  <h2>Проєкт Boxes</h2>
-                  <p>Додаток</p>
+                <div class="projects__caption">
+                  <h2 class="projects__title">Проєкт Boxes</h2>
+                  <p class="projects__info">Додаток</p>
                 </div>
               </a>
             </li>
 
-            <li>
-              <a class="project-link link" href="">
-                <div class="project-overlay">
+            <li class="projects__card">
+              <a class="projects__link link" href="">
+                <div class="projects__overlay">
                   <img
+                    class="projects__img"
                     src="./images/portfolio-images/port-6.jpg"
                     alt="Екран ноутбука"
                     width="370"
                     height="294"
                   />
-                  <p class="project-descript">
+                  <p class="projects__description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi voluptates
                     odio dolorum ex sapiente provident cupiditate incidunt quibusdam praesentium
                     nesciunt?
                   </p>
                 </div>
-                <div class="project">
-                  <h2>Inspiration has no Borders</h2>
-                  <p>Веб-сайт</p>
+                <div class="projects__caption">
+                  <h2 class="projects__title">Inspiration has no Borders</h2>
+                  <p class="projects__info">Веб-сайт</p>
                 </div>
               </a>
             </li>
 
-            <li>
-              <a class="project-link link" href="">
-                <div class="project-overlay">
+            <li class="projects__card">
+              <a class="projects__link link" href="">
+                <div class="projects__overlay">
                   <img
+                    class="projects__img"
                     src="./images/portfolio-images/port-7.jpg"
                     alt="Екран ноутбука"
                     width="370"
                     height="294"
                   />
-                  <p class="project-descript">
+                  <p class="projects__description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi voluptates
                     odio dolorum ex sapiente provident cupiditate incidunt quibusdam praesentium
                     nesciunt?
                   </p>
                 </div>
-                <div class="project">
-                  <h2>Видання Limited Edition</h2>
-                  <p>Дизайн</p>
+                <div class="projects__caption">
+                  <h2 class="projects__title">Видання Limited Edition</h2>
+                  <p class="projects__info">Дизайн</p>
                 </div>
               </a>
             </li>
 
-            <li>
-              <a class="project-link link" href="">
-                <div class="project-overlay">
+            <li class="projects__card">
+              <a class="projects__link link" href="">
+                <div class="projects__overlay">
                   <img
+                    class="projects__img"
                     src="./images/portfolio-images/port-8.jpg"
                     alt="Екран ноутбука"
                     width="370"
                     height="294"
                   />
-                  <p class="project-descript">
+                  <p class="projects__description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi voluptates
                     odio dolorum ex sapiente provident cupiditate incidunt quibusdam praesentium
                     nesciunt?
                   </p>
                 </div>
-                <div class="project">
-                  <h2>Проєкт LAB</h2>
-                  <p>Маркетинг</p>
+                <div class="projects__caption">
+                  <h2 class="projects__title">Проєкт LAB</h2>
+                  <p class="projects__info">Маркетинг</p>
                 </div>
               </a>
             </li>
 
-            <li class="project-item">
-              <a class="project-link link" href="">
-                <div class="project-overlay">
+            <li class="projects__card">
+              <a class="projects__link link" href="">
+                <div class="projects__overlay">
                   <img
+                    class="projects__img"
                     src="./images/portfolio-images/port-9.jpg"
                     alt="Екран ноутбука"
                     width="370"
                     height="294"
                   />
-                  <p class="project-descript">
+                  <p class="projects__description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi voluptates
                     odio dolorum ex sapiente provident cupiditate incidunt quibusdam praesentium
                     nesciunt?
                   </p>
                 </div>
-                <div class="project">
-                  <h2>Growing Business</h2>
-                  <p>Додаток</p>
+                <div class="projects__caption">
+                  <h2 class="projects__title">Growing Business</h2>
+                  <p class="projects__info">Додаток</p>
                 </div>
               </a>
             </li>
@@ -281,64 +305,68 @@
       </section>
     </main>
 
-    <footer class="page-footer">
-      <div class="container footer-sections">
-        <div class="address-section">
-          <a class="footer-logo link" href="./">Web<span>Studio</span></a>
+    <footer class="footer">
+      <div class="container footer__sections">
+        <div class="footer__address">
+          <a class="footer__logo link" href="./">Web<span class="footer__accent">Studio</span></a>
           <address class="address">
-            <ul class="list footer-contacts">
-              <li>
-                <a class="link contact" href="">.м. Київ, пр-т Лесі Українки, 26</a>
+            <ul class="address__list list">
+              <li class="address__item">
+                <a class="address__link link" href="">.м. Київ, пр-т Лесі Українки, 26</a>
               </li>
-              <li>
-                <a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <li class="address__item">
+                <a class="address__link link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
-              <li><a class="link contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+              <li class="address__item">
+                <a class="address__link link" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
             </ul>
           </address>
         </div>
-        <div class="footer-links">
-          <p class="footer-heading">приєднуйтесь</p>
-          <ul class="list footer-icons">
-            <li class="footer-item">
-              <a class="footer-link" href="">
-                <svg class="footer-media-icon" width="20" height="20">
+        <div class="footer-media">
+          <p class="footer-media__title">приєднуйтесь</p>
+          <ul class="footer-media__list list flex-center">
+            <li class="footer-media__item">
+              <a class="footer-media__link flex-center" href="">
+                <svg class="footer-media__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
 
-            <li class="footer-item">
-              <a class="footer-link" href="">
-                <svg class="footer-media-icon" width="20" height="20">
+            <li class="footer-media__item">
+              <a class="footer-media__link flex-center" href="">
+                <svg class="footer-media__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
 
-            <li class="footer-item">
-              <a class="footer-link" href="">
-                <svg class="footer-media-icon" width="20" height="20">
+            <li class="footer-media__item">
+              <a class="footer-media__link flex-center" href="">
+                <svg class="footer-media__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
 
-            <li class="footer-item">
-              <a class="footer-link" href="">
-                <svg class="footer-media-icon" width="20" height="20">
+            <li class="footer-media__item">
+              <a class="footer-media__link flex-center" href="">
+                <svg class="footer-media__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div>
-          <p class="footer-heading" style="display: block">Підпишіться на розсилку</p>
-          <form class="footer-form">
-            <input class="footer-input" id="footer-email" type="email" placeholder=" " />
-            <label class="footer-label" for="footer-email">E-mail </label>
-            <button class="btn footer-btn" type="submit">
+        <div class="footer-form">
+          <p class="footer-form__title" style="display: block">Підпишіться на розсилку</p>
+          <form class="footer-form__block">
+            <input class="footer-form__input" id="footer-email" type="email" placeholder=" " />
+            <label class="footer-form__label" for="footer-email">E-mail </label>
+            <button class="btn footer-form__btn flex-center" type="submit">
               Підписатися<svg width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
