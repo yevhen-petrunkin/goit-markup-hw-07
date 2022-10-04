@@ -1,4 +1,6 @@
 .team {
+  @extend %section;
+  @extend %bg-grey;
   line-height: 1.19;
   text-align: center;
 }

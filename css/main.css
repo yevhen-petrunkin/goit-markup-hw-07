@@ -17,7 +17,7 @@
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.projects, .clients, .activities, .features {
+.projects, .clients, .team, .activities, .features {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -33,7 +33,7 @@
   text-decoration: none;
 }
 
-.features__symbol, .filter__btn {
+.team, .features__symbol, .filter__btn {
   background-color: var(--occasional-grey-color);
 }
 
