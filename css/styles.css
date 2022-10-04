@@ -617,7 +617,7 @@ img {
 
 /* Portfolio Projects */
 
-.projects__list {
+.projects__set {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;

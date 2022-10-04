@@ -20,31 +20,29 @@
       referrerpolicy="no-referrer"
     />
 
-    <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/main.min.css" rel="stylesheet" />
+    <!-- <link href="./css/styles.css" rel="stylesheet" /> -->
   </head>
   <body>
     <header class="header">
-      <div class="nav container flex-center">
-        <nav class="nav__menu flex-center">
-          <a class="logo link" href="./">Web<span class="logo__accent">Studio</span></a>
+      <div class="nav container">
+        <nav class="nav__menu">
+          <a class="logo" href="./">Web<span class="logo__accent">Studio</span></a>
 
-          <ul class="nav__bar list flex-center">
+          <ul class="nav__bar">
             <li class="nav__item">
-              <a class="nav__link nav__link--active link" href="./">Студія</a>
+              <a class="nav__link nav__link--active" href="./">Студія</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link link" href="./portfolio.html">Портфоліо</a>
+              <a class="nav__link" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="nav__item"><a class="nav__link link" href="">Контакти</a></li>
+            <li class="nav__item"><a class="nav__link" href="">Контакти</a></li>
           </ul>
         </nav>
 
-        <ul class="nav__contacts list flex-center">
+        <ul class="nav__contacts">
           <li class="nav__item">
-            <a
-              class="nav__link nav_link--separate link flex-center"
-              href="mailto:info@devstudio.com"
-            >
+            <a class="nav__link nav__link--separate" href="mailto:info@devstudio.com">
               <svg class="nav__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
@@ -52,7 +50,7 @@
             >
           </li>
           <li class="nav__item">
-            <a class="nav__link nav_link--separate link flex-center" href="tel:+380961111111">
+            <a class="nav__link nav__link--separate" href="tel:+380961111111">
               <svg class="nav__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
@@ -74,7 +72,7 @@
 
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-              <button class="modal__close-btn flex-center" type="button" data-modal-close>
+              <button class="modal__close-btn" type="button" data-modal-close>
                 <svg class="modal__close-icon" width="30" height="30">
                   <use href="./images/icons.svg#icon-close"></use>
                 </svg>
@@ -114,13 +112,13 @@
                   </div>
 
                   <div class="submit-data">
-                    <label class="submit-data__label flex-center"
+                    <label class="submit-data__label"
                       ><input class="submit-data__checkbox" type="checkbox" required /><span
                         class="submit-data__icon"
                       ></span>
                       <p>
                         Погоджуюся з розсилкою та приймаю
-                        <a class="submit-data__link link" href="">Умови договору</a>
+                        <a class="submit-data__link" href="">Умови договору</a>
                       </p></label
                     >
                     <button class="btn" type="submit">Відправити</button>
@@ -132,13 +130,13 @@
         </div>
       </section>
 
-      <section class="features section">
+      <section class="features">
         <div class="container">
-          <h2 class="features__heading second-heading visually-hidden">Особливості</h2>
+          <h2 class="features__heading visually-hidden">Особливості</h2>
 
-          <ul class="features__list list">
+          <ul class="features__list">
             <li class="features__item">
-              <div class="features__symbol flex-center bg-grey">
+              <div class="features__symbol">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
@@ -150,7 +148,7 @@
             </li>
 
             <li class="features__item">
-              <div class="features__symbol flex-center bg-grey">
+              <div class="features__symbol">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
@@ -162,7 +160,7 @@
             </li>
 
             <li class="features__item">
-              <div class="features__symbol flex-center bg-grey">
+              <div class="features__symbol">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
@@ -174,7 +172,7 @@
             </li>
 
             <li class="features__item">
-              <div class="features__symbol flex-center bg-grey">
+              <div class="features__symbol">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
@@ -188,10 +186,10 @@
         </div>
       </section>
 
-      <section class="activities section">
+      <section class="activities">
         <div class="container">
-          <h2 class="activities__heading second-heading">Чим ми займаємося</h2>
-          <ul class="activities__list list">
+          <h2 class="activities__heading">Чим ми займаємося</h2>
+          <ul class="activities__list">
             <li class="activities__item">
               <figure class="activities__card">
                 <img
@@ -201,7 +199,7 @@
                   width="370"
                   height="294"
                 />
-                <figcaption class="activities__caption flex-center">
+                <figcaption class="activities__caption">
                   <p class="activities__title">Десктопні додатки</p>
                 </figcaption>
               </figure>
@@ -215,7 +213,7 @@
                   width="370"
                   height="294"
                 />
-                <figcaption class="activities__caption flex-center">
+                <figcaption class="activities__caption">
                   <p class="activities__title">Мобільні додатки</p>
                 </figcaption>
               </figure>
@@ -229,7 +227,7 @@
                   width="370"
                   height="294"
                 />
-                <figcaption class="activities__caption flex-center">
+                <figcaption class="activities__caption">
                   <p class="activities__title">Дизайнерські рішення</p>
                 </figcaption>
               </figure>
@@ -241,7 +239,7 @@
       <section class="team section bg-grey">
         <div class="container">
           <h2 class="team__heading second-heading">Наша команда</h2>
-          <ul class="team__list list">
+          <ul class="team__list">
             <li class="team__card">
               <img
                 class="team__img"
@@ -253,34 +251,34 @@
               <div class="team__member">
                 <h3 class="team__title">Ігор Дем'яненко</h3>
                 <p class="team__position">Product Designer</p>
-                <ul class="team__media list flex-center">
-                  <li class="team__media-item">
-                    <a class="team__link flex-center" href="">
-                      <svg class="team__icon" width="20" height="20">
+                <ul class="media">
+                  <li class="media__item">
+                    <a class="media__link" href="">
+                      <svg class="media__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
 
-                  <li class="team__media-item">
-                    <a class="team__link flex-center" href="">
-                      <svg class="team__icon" width="20" height="20">
+                  <li class="media__item">
+                    <a class="media__link" href="">
+                      <svg class="media__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
 
-                  <li class="team__media-item">
-                    <a class="team__link flex-center" href="">
-                      <svg class="team__icon" width="20" height="20">
+                  <li class="media__item">
+                    <a class="media__link" href="">
+                      <svg class="media__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
 
-                  <li class="team__media-item">
-                    <a class="team__link flex-center" href="">
-                      <svg class="team__icon" width="20" height="20">
+                  <li class="media__item">
+                    <a class="media__link" href="">
+                      <svg class="media__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -300,34 +298,34 @@
               <div class="team__member">
                 <h3 class="team__title">Ольга Рєпіна</h3>
                 <p class="team__position">Frontend Developer</p>
-                <ul class="list team__media flex-center">
-                  <li class="team__media-item">
-                    <a class="team__link flex-center" href="">
-                      <svg class="team__icon" width="20" height="20">
+                <ul class="media">
+                  <li class="media__item">
+                    <a class="media__link" href="">
+                      <svg class="media__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
 
-                  <li class="team__media-item">
-                    <a class="team__link flex-center" href="">
-                      <svg class="team__icon" width="20" height="20">
+                  <li class="media__item">
+                    <a class="media__link" href="">
+                      <svg class="media__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
 
-                  <li class="team__media-item">
-                    <a class="team__link flex-center" href="">
-                      <svg class="team__icon" width="20" height="20">
+                  <li class="media__item">
+                    <a class="media__link" href="">
+                      <svg class="media__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
 
-                  <li class="team__media-item">
-                    <a class="team__link flex-center" href="">
-                      <svg class="team__icon" width="20" height="20">
+                  <li class="media__item">
+                    <a class="media__link" href="">
+                      <svg class="media__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -347,34 +345,34 @@
               <div class="team__member">
                 <h3 class="team__title">Микола Тарасов</h3>
                 <p class="team__position">Marketing</p>
-                <ul class="list team__media flex-center">
-                  <li class="team__media-item">
-                    <a class="team__link flex-center" href="">
-                      <svg class="team__icon" width="20" height="20">
+                <ul class="media">
+                  <li class="media__item">
+                    <a class="media__link" href="">
+                      <svg class="media__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
 
-                  <li class="team__media-item">
-                    <a class="team__link flex-center" href="">
-                      <svg class="team__icon" width="20" height="20">
+                  <li class="media__item">
+                    <a class="media__link" href="">
+                      <svg class="media__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
 
-                  <li class="team__media-item">
-                    <a class="team__link flex-center" href="">
-                      <svg class="team__icon" width="20" height="20">
+                  <li class="media__item">
+                    <a class="media__link" href="">
+                      <svg class="media__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
 
-                  <li class="team__media-item">
-                    <a class="team__link flex-center" href="">
-                      <svg class="team__icon" width="20" height="20">
+                  <li class="media__item">
+                    <a class="media__link" href="">
+                      <svg class="media__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -394,34 +392,34 @@
               <div class="team__member">
                 <h3 class="team__title">Михайло Єрмаков</h3>
                 <p class="team__position">UI Designer</p>
-                <ul class="list team__media flex-center">
-                  <li class="team__media-item">
-                    <a class="team__link flex-center" href="">
-                      <svg class="team__icon" width="20" height="20">
+                <ul class="media">
+                  <li class="media__item">
+                    <a class="media__link" href="">
+                      <svg class="media__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
 
-                  <li class="team__media-item">
-                    <a class="team__link flex-center" href="">
-                      <svg class="team__icon" width="20" height="20">
+                  <li class="media__item">
+                    <a class="media__link" href="">
+                      <svg class="media__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
 
-                  <li class="team__media-item">
-                    <a class="team__link flex-center" href="">
-                      <svg class="team__icon" width="20" height="20">
+                  <li class="media__item">
+                    <a class="media__link" href="">
+                      <svg class="media__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
 
-                  <li class="team__media-item">
-                    <a class="team__link flex-center" href="">
-                      <svg class="team__icon" width="20" height="20">
+                  <li class="media__item">
+                    <a class="media__link" href="">
+                      <svg class="media__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -433,11 +431,11 @@
         </div>
       </section>
 
-      <section class="clients section">
-        <h2 class="clients__heading second-heading">Постійні клієнти</h2>
-        <ul class="clients__list list flex-center">
+      <section class="clients">
+        <h2 class="clients__heading">Постійні клієнти</h2>
+        <ul class="clients__list">
           <li class="clients__item">
-            <a class="clients__link flex-center" href="">
+            <a class="clients__link" href="">
               <svg class="clients__icon" width="106" height="60">
                 <use href="./images/icons.svg#icon-ya-and-co"></use>
               </svg>
@@ -445,7 +443,7 @@
           </li>
 
           <li class="clients__item">
-            <a class="clients__link flex-center" href="">
+            <a class="clients__link" href="">
               <svg class="clients__icon" width="106" height="60">
                 <use href="./images/icons.svg#icon-company"></use>
               </svg>
@@ -453,7 +451,7 @@
           </li>
 
           <li class="clients__item">
-            <a class="clients__link flex-center" href="">
+            <a class="clients__link" href="">
               <svg class="clients__icon" width="106" height="60">
                 <use href="./images/icons.svg#icon-company-2"></use>
               </svg>
@@ -461,7 +459,7 @@
           </li>
 
           <li class="clients__item">
-            <a class="clients__link flex-center" href="">
+            <a class="clients__link" href="">
               <svg class="clients__icon" width="106" height="60">
                 <use href="./images/icons.svg#icon-foster"></use>
               </svg>
@@ -469,7 +467,7 @@
           </li>
 
           <li class="clients__item">
-            <a class="clients__link flex-center" href="">
+            <a class="clients__link" href="">
               <svg class="clients__icon" width="106" height="60">
                 <use href="./images/icons.svg#icon-brand"></use>
               </svg>
@@ -477,7 +475,7 @@
           </li>
 
           <li class="clients__item">
-            <a class="clients__link flex-center" href="">
+            <a class="clients__link" href="">
               <svg class="clients__icon" width="106" height="60">
                 <use href="./images/icons.svg#icon-tag-line"></use>
               </svg>
@@ -490,28 +488,26 @@
     <footer class="footer">
       <div class="container footer__sections">
         <div class="footer__address">
-          <a class="footer__logo link" href="./">Web<span class="footer__accent">Studio</span></a>
+          <a class="footer__logo" href="./">Web<span class="footer__accent">Studio</span></a>
           <address class="address">
-            <ul class="address__list list">
+            <ul class="address__list">
               <li class="address__item">
-                <a class="address__link link" href="">.м. Київ, пр-т Лесі Українки, 26</a>
+                <a class="address__link" href="">.м. Київ, пр-т Лесі Українки, 26</a>
               </li>
               <li class="address__item">
-                <a class="address__link link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
+                <a class="address__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
               </li>
               <li class="address__item">
-                <a class="address__link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="address__link" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
         <div class="footer-media">
           <p class="footer-media__title">приєднуйтесь</p>
-          <ul class="footer-media__list list flex-center">
+          <ul class="footer-media__list">
             <li class="footer-media__item">
-              <a class="footer-media__link flex-center" href="">
+              <a class="footer-media__link" href="">
                 <svg class="footer-media__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
@@ -519,7 +515,7 @@
             </li>
 
             <li class="footer-media__item">
-              <a class="footer-media__link flex-center" href="">
+              <a class="footer-media__link" href="">
                 <svg class="footer-media__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
@@ -527,7 +523,7 @@
             </li>
 
             <li class="footer-media__item">
-              <a class="footer-media__link flex-center" href="">
+              <a class="footer-media__link" href="">
                 <svg class="footer-media__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
@@ -535,7 +531,7 @@
             </li>
 
             <li class="footer-media__item">
-              <a class="footer-media__link flex-center" href="">
+              <a class="footer-media__link" href="">
                 <svg class="footer-media__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
